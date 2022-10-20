@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.s {
+    width: 218px;
+    height: 440px;
+    background: #dcdbcc;
+    margin: 30px 40px;
+    border-radius: 30px;
+    border: solid 1px #000;
+}
+
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6 {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: #949394;
+}
+
+.s1 {
+    margin-top: 31px;
+    margin-left: 215px;
+}
+
+.s2 {
+    margin-top: 70px;
+    margin-left: 41px;
+}
+
+.s3 {
+    margin-top: 70px;
+    margin-left: 254px;
+}
+
+.s4 {
+    margin-top: 466px;
+    margin-left: 86px;
+}
+
+.s5 {
+    margin-top: 425px;
+    margin-left: 41px;
+}
+
+.s6 {
+    margin-top: 425px;
+    margin-left: 254px;
+}
+
+.s7 {
+    position: absolute;
+    width: 3px;
+    height: 18px;
+    background: #c5c4c6;
+    margin-top: 85px;
+    margin-left: 39px;
+    border-radius: 2px;
+}
+
+.s8 {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    background: #c5c4c6;
+    margin-top: 115px;
+    margin-left: 39px;
+    border-radius: 2px;
+}
+
+.s9 {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    background: #c5c4c6;
+    margin-top: 155px;
+    margin-left: 39px;
+    border-radius: 2px;
+}
+
+.s10 {
+    position: absolute;
+    width: 3px;
+    height: 55px;
+    background: #c5c4c6;
+    margin-top: 125px;
+    margin-left: 256px;
+    border-radius: 2px;
+}
+
+.border-trong {
+    width: 210px;
+    margin: 3px;
+    height: 432px;
+    background: #5c5d5e;
+    border: solid 2px #000;
+    border-radius: 25px;
+}
+
+.border-trong2 {
+    margin: 2px;
+    width: 202px;
+    height: 424px;
+    border: solid 7px #000;
+    border-radius: 20px;
+    background: linear-gradient(#12c2e9, rgb(161, 62, 210), #f64f59);
+}
+
+.tai-tho {
+    width: 115px;
+    height: 18px;
+    background: #000;
+    margin: auto;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.loa {
+    margin-left: 45px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 30px;
+    height: 5px;
+    background: #141414;
+    border-radius: 10px;
+}
+
+.cam-trc {
+    width: 8px;
+    height: 8px;
+    background: #224363;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.fa-solid {
+    color: #fff;
+}
+
+.lock {
+    color: #000;
+}
+
+.on-top {
+    display: flex;
+    margin-top: -18px;
+    margin-left: 14px;
+}
+
+.mang {
+    margin-top: 3px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.fa-wifi {
+    margin-left: 131px;
+    font-size: 8px;
+    margin-top: 8px;
+    margin-right: 3px;
+}
+
+.fa-battery-quarter {
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.time {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 220px;
+}
+
+.around {
+    height: 25px;
+    width: 25px;
+    background: rgba(161, 62, 210, 0.4);
+    align-items: center;
+    border-radius: 50%;
+}
+
+.fa-lightbulb {
+    margin: 6px;
+}
+
+.fa-camera {
+    margin: 4px;
+}
+
+.mat_sau .border-trong {
+    background: #d9d5d7;
+    border: solid 1px #000;
+}
+
+.cam-sau {
+    width: 85px;
+    height: 85px;
+    margin: 10px;
+    background: #b0aeb1;
+    border-radius: 25px;
+    position: absolute;
+    box-shadow: 1px 1px 10px 0px #999;
+}
+
+.cam2 {
+    margin-top: 38px;
+}
+
+.cam3 {
+    margin-top: -19px;
+    margin-left: 35px;
+}
+
+.vong1,
+.vong2,
+.vong3,
+.vong4 {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.vong1 {
+    width: 34px;
+    height: 34px;
+    border: solid 1px #666;
+    background-color: #777575;
+    margin-left: 9px;
+    margin-top: 6px;
+}
+
+.vong2 {
+    width: 26px;
+    height: 26px;
+    background: #1f1e20;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.vong3 {
+    width: 20px;
+    height: 20px;
+    background: #0f0d19;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.vong4 {
+    width: 8px;
+    height: 8px;
+    margin-top: 6px;
+    margin-left: 6px;
+    background: #181f3a
+}
+
+.vang {
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    border: solid 2px #999;
+    background: #c4cbbe;
+    margin-top: 6px;
+    margin-left: 53px;
+}
+
+.den {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid 2px #999;
+    background: #000;
+    margin-left: 56px;
+    margin-top: 63px;
+}
+
+.logo-apple {
+    text-align: center;
+    margin-top: 195px;
+    font-size: 60px;
+    color: #b3b3b0;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.label-ontop {
+    font-size: 50px;
+    color: #fff;
+    font-family: fantasy;
+}
+
+.apple {
+    font-size: 80px;
+    color: #fff;
+    margin-top: 80px;
+    text-shadow: 0 0 50px #0f0, 0 0 100px #0f0, 0 0 150px #0f0, 0 0 200px #0f0, 0 0 250px #0f0;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.label-bottom {
+    margin-top: 60px;
+    font-size: 30px;
+    color: #fff;
+}
